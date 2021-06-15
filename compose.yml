@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+  pg-boss-postgres:
+    image: postgres:11.8
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - ./compose-init.sql:/docker-entrypoint-initdb.d/init.sql

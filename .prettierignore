@@ -1,0 +1,14 @@
+# npm & compiled output
+node_modules
+package-lock.json
+lib
+dist
+
+# coverage
+coverage
+
+# migrations
+migrations
+
+# unsupported
+*.ejs
