@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pg-boss": "^6.1.3",
+    "pg-boss": "^6.2.1-beta1",
     "testcontainers": "^7.18.2",
     "wtfnode": "^0.9.1"
   }
